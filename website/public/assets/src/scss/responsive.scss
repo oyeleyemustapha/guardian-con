@@ -1,0 +1,317 @@
+@media only screen and (max-width: 1024px) {
+    .navbar-brand img {
+        max-width: 200px;
+
+    }
+
+    .navbar .navbar-nav {
+        gap: 15px;
+    }
+
+
+    .information-section .instruction .instructions-step .steps-container {
+        left: -7%;
+    }
+
+    .information-section header p {
+        line-height: 1.5rem;
+    }
+
+    .information-section .information-board {
+        min-height: 100px;
+        height: auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 769px) {
+    .navbar .main-menu {
+        flex-direction: column;
+        justify-content: flex-start;
+        display: unset;
+        margin-top: 5rem;
+    }
+
+    footer .footer-bottom .footer-brand:before {
+        content: "";
+
+        height: auto;
+        position: absolute;
+        width: 220px;
+        top: 30px;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    footer .footer-bottom .footer-brand {
+        margin-bottom: 2rem;
+    }
+
+
+    .main-menu.collapse {
+        display: none;
+    }
+
+    .trackBtn {
+        margin-top: 3rem;
+    }
+
+    footer .footer-bottom .footer-link-container .footer-link-lower p.copyright {
+        text-align: left;
+    }
+
+
+    .jumbotron .jumbotron-content {
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+
+        h1 {
+            font-size: 40px;
+            line-height: 3rem;
+            text-align: left;
+        }
+
+        p {
+            text-align: left;
+        }
+    }
+
+    .jumbotron-img {
+        height: 250px;
+    }
+
+    .homepage-section-two h1 {
+        font-size: 24px;
+        margin-bottom: 1.5rem;
+    }
+
+    .homepage-section-two .cta-1 {
+        min-height: 400px;
+    }
+
+    .homepage-section-two .cta-3 {
+        min-height: 400px;
+        margin-top: 1rem;
+    }
+
+    .steps h2,
+    .steps h2 span {
+        width: 80%;
+        font-size: 24px;
+        margin-bottom: 2.5rem;
+        line-height: 2.3rem;
+    }
+
+    .steps .step .number {
+        font-size: 37px;
+    }
+
+    .steps .step {
+        margin-bottom: 3rem;
+    }
+
+    .steps {
+        padding-top: 3rem;
+        margin-top: 2rem;
+        min-height: 200px;
+    }
+
+    .pricing-section header h2 {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .pricing-section header {
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+
+    .faqs-section h2 {
+        font-size: 24px;
+    }
+
+    .pricing-section header p.blurb {
+        display: none;
+    }
+
+    .homepage-section-two .cta-2 .content,
+    .homepage-section-two .cta-1 .content {
+        width: 100%;
+    }
+
+
+    .navbar-brand img {
+        max-width: 200px;
+    }
+
+
+    .pricing-section {
+        padding-top: 2rem;
+        margin-top: 2rem;
+        min-height: 600px;
+        margin-bottom: 5rem;
+    }
+
+    .faqs-section .accordion-button {
+        font-size: 16px;
+    }
+
+    .faqs-section .accordion-body {
+        font-size: 14px;
+    }
+
+    footer .footer-top {
+        display: none;
+    }
+
+    footer .footer-bottom .footer-brand .newsletter-form .form-grouping button {
+        position: unset;
+        width: 100%;
+        background: #00AEEF;
+        margin-top: 1rem;
+    }
+
+    footer .footer-bottom .footer-link-container .footer-link-lower .footer-quick-links,
+    footer .footer-bottom .footer-link-container .footer-link-lower .footer-quick-links li {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+
+    footer .footer-bottom .footer-link-container .footer-link-lower .footer-quick-links {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+
+    .faqs-section .faqs {
+        width: 100%;
+    }
+
+    .information-section .instruction header h2 {
+        text-align: left;
+        line-height: 2rem;
+    }
+
+    .information-section .instruction header p {
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .information-section {
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+
+        .information-board {
+            min-height: 100px;
+            font-size: 12px;
+            height: auto;
+            line-height: 1.5rem;
+        }
+
+        header {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 1.5rem;
+            }
+        }
+    }
+
+    .information-section .instruction .instructions-step .step .details p {
+        font-size: 12px;
+        line-height: 1.2rem;
+    }
+
+
+    .information-section .instruction .instructions-step .steps-container {
+        left: -6%;
+    }
+
+    .next-btn {
+        margin-top: 10rem;
+    }
+
+
+    .stages .stages-container {
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .stages #change-of-name-form .steps-nav-btn .nav-btn {
+        font-size: 14px;
+        padding: 12px;
+
+        i {
+            margin-inline-start: 0.55rem;
+            text-align: center;
+
+        }
+    }
+
+    .stages #change-of-name-form .form-group .booking-type-selector .choice {
+        font-size: 12px;
+        max-height: 55px;
+        min-height: 55px;
+        height: auto;
+    }
+
+    .stages .stages-container .step-header p {
+        font-size: 14px;
+    }
+
+    .stages .stages-container .step-header h3 {
+        font-size: 16px;
+    }
+
+    .attn-widget,
+    .review-info .attn-widget,
+    .review-info .attn-widget span {
+        height: auto;
+        min-height: 100px;
+        font-size: 12px;
+        line-height: 1.5rem;
+    }
+
+    .stages #change-of-name-form .form-group label {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .payment-confirmation {
+        width: 90%;
+        min-height: 300px;
+        margin-bottom: 4rem;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 425px) {
+    .information-section .instruction .instructions-step .steps-container {
+        left: -14%;
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .information-section .instruction .instructions-step .steps-container {
+        left: -15%;
+    }
+}
