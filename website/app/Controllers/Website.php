@@ -11,7 +11,7 @@ use CodeIgniter\API\ResponseTrait;
 
 class Website extends BaseController
 {
-     use ResponseTrait;
+    use ResponseTrait;
     public function index()
     {
         $faqModel=new Faqs(); 
@@ -25,8 +25,6 @@ class Website extends BaseController
         echo view('home');
         echo view('partials/footer');
     }
-
-
 
     public function submit_contact(){
         $this->validation->setRules([
@@ -50,14 +48,11 @@ class Website extends BaseController
             ];
             return $this->respond($data, 400);
         }
-     else{
-
+        else{
             $remoteip = $_SERVER['HTTP_CF_CONNECTING_IP'] ?? $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'];
             $validation = validateTurnstile($this->request->getPost('cf-turnstile-response'), env('CLOUDFLARE_TURNStILE_SECRET_KEY'), $remoteip);
 
             if($validation['success']) {
-
-
                 $mailer=mailer([
                     'email'=>env('CONTACT_EMAIL'),
                     'subject'=>"Contact Message from Guardian Change of Name",
@@ -68,8 +63,6 @@ class Website extends BaseController
                         'message'=>$this->request->getPost('message')
                     ])
                 ]);
-
-
                 if($mailer){
                     $data=[
                         'title'=>'Success',
@@ -95,8 +88,6 @@ class Website extends BaseController
                 ];
                 return $this->respond($data, 400);
             }
-      }
-    }
-
-
+        }
+    } 
 }

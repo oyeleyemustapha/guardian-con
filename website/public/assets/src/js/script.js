@@ -61,7 +61,6 @@ $(document).ready(function() {
     });
 
 
-
     function validateStep(stepContainer) {
         let isValid = true;
         stepContainer.find('input, select, textarea').removeClass('invalid-input');
@@ -140,11 +139,6 @@ $(document).ready(function() {
     $('head').append('<style>.invalid-input { border: 1px solid red !important; }</style>');
     $('head').append('<style>.choice.selected { background-color: #007bff; color: white; }</style>');
 
-
-
-
-
-
     $('.progress-container').each(function() {
         const progressFill = $(this).find('.progress-fill');
         const progressText = $(this).find('.progress-text');
@@ -162,13 +156,9 @@ $(document).ready(function() {
         progressText.text(`${clampedPercentage}%`);
     });
 
-
     $('.contactBtn').attr('disabled', true)
-    
 
-    
-
-     $('#contactForm').submit(function(e) {
+    $('#contactForm').submit(function(e) {
         e.preventDefault();
         $.ajax({
                 method: 'POST',
@@ -208,7 +198,4 @@ $(document).ready(function() {
                 });
             })
     })
-
-
-
 })
